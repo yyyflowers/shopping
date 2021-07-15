@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import FastClick from 'fastclick'
 import VueLazyload from "vue-lazyload";
-
+// ssaff
 Vue.config.productionTip = false
 //添加事件总线
 Vue.prototype.$bus = new Vue()
