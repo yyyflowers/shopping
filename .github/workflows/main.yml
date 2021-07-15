@@ -1,6 +1,6 @@
 name: build and deploy
 
-#当master分支 push 代码的时候触发 workflow
+#当main分支 push 代码的时候触发 workflow
 on:
   push:
     branches:
