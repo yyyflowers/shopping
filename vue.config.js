@@ -1,5 +1,4 @@
 module.exports = {
-  publicPath: process.env.NODE_PATH === 'production' ? '/shoppingStreet/' : '/',
   configureWebpack: {
     resolve: {
       alias: {
