@@ -132,7 +132,11 @@
         product.topImages = this.topImages[0]
         // console.log(product);
         //2将商品发送到vuex中管理
-        this.$store.dispatch('addCart',product)
+        this.$store.dispatch('addCart',product).then(res => {
+          // console.log(res);
+          // console.log(this.$toast);
+          this.$toast.show('添加购物车成功',2000)
+        })
       }
       }
   }
